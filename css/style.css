@@ -328,13 +328,15 @@ header {
     justify-content: space-between;
 }
 
-.services__title-box {
+.services__title-box,
+.сonsultation__title-box {
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 
-.services__title-box::before {
+.services__title-box::before,
+.сonsultation__title-box::before {
     content: '';
     width: 100px;
     height: 2px;
@@ -344,15 +346,18 @@ header {
     background-color: #ffc222;
 }
 
-.services__title {
+.services__title,
+.сonsultation__title {
     margin-bottom: 10px;
     font-size: 24px;
     line-height: 24px;
     color: #212020;
 }
 
-.services__text {
+.services__text,
+.сonsultation__text {
     font-family: 'PT Serif Regular', sans-serif;
+    font-size: 16px;
     letter-spacing: 0.14px;
 }
 
@@ -454,4 +459,138 @@ header {
 
 .default-btn.about-btn::after {
     color: #000;
+}
+
+/*<----- Consultation ----->*/
+.сonsultation {
+    padding-top: 30px;
+}
+
+.сonsultation-inner {
+    min-height: 460px;
+    padding-bottom: 40px;
+    background: url('../images/сonsultation-bg.png') no-repeat bottom right;
+}
+
+.form__box {
+    max-width: 850px;
+    padding-top: 45px;
+}
+
+.form__box-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__box-inner label,
+.form__box-inner input,
+.form__box-inner textarea {
+    display: block;
+    width: 100%;
+}
+
+.form__box-left {
+    max-width: 260px;
+    width: 100%;
+}
+
+.form__box-inner label {
+    line-height: 36px;
+    color: #282828;
+}
+
+.form__box-inner input {
+    height: 40px;
+    margin-bottom: 8px;
+    padding: 0 10px;
+    border: 1px solid #e6e6e6;
+    outline: none;
+}
+
+.form__box-inner select {
+    padding-left: 17px;
+    outline: none;
+}
+
+.form__box-inner .jq-selectbox.jqselect {
+    display: block;
+    width: 100%;
+}
+
+.form__box-inner .jq-selectbox__select {
+    height: 40px;
+    padding-left: 17px;
+    border: 1px solid #e6e6e6;
+}
+
+.form__box-inner .jq-selectbox__trigger-arrow:before{
+    content: "\f105";
+    font-family: 'icomoon';
+    position: absolute;
+    right: 17px;
+    top: 0;
+    transform: rotate(90deg);
+}
+
+.form__box-inner .jq-selectbox__dropdown {
+    width: 100%;
+    margin: 2px 0 0;
+    padding: 0;
+    border: 1px solid #e6e6e6;
+    background: #FFF;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+.form__box-inner .jq-selectbox li {
+    min-height: 18px;
+    padding: 5px 17px 6px;
+    color: #231F20;
+}
+
+.form__box-inner .jq-selectbox li.selected {
+    color: #FFF;
+    background-color: #A3ABB1;
+}
+
+.form__box-inner .jq-selectbox li:hover {
+    color: #FFF;
+    background-color: #08C;
+}
+
+.form__box-inner .jq-selectbox li.disabled {
+    color: #AAA;
+}
+
+.form__box-inner .jq-selectbox li.disabled:hover {
+    background: none;
+}
+
+.form__box-inner .jq-selectbox li.optgroup:hover {
+    color: #231F20;
+    background: none;
+    cursor: default;
+}
+
+.form__box-inner .jq-selectbox li.option {
+    padding-left: 25px;
+}
+
+.form__box-right {
+    max-width: 555px;
+    width: 100%;
+}
+
+.form__box-inner textarea {
+    height: 208px;
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    resize: none;
+}
+
+.form__box-inner button {
+    float: right;
+    color: #282828;
+    cursor: pointer;
 }
