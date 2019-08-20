@@ -866,6 +866,7 @@ header {
 
 /*<----- Modal window ----->*/
 #modal {
+    display: none;
     width: 300px;
 }
 
