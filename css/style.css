@@ -180,6 +180,11 @@ header {
     justify-content: space-between;
 }
 
+.header__btn-menu {
+    display: none;
+    font-size: 28px;
+}
+
 .menu li {
     display: inline-block;
 }
