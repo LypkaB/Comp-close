@@ -777,3 +777,84 @@ header {
     letter-spacing: 0.1px;
     color: #5e5e5e;
 }
+
+/*<----- Footer ----->*/
+.footer__content {
+    padding: 20px 0 30px;
+    background-color: #595959;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__info {
+    max-width: 360px;
+}
+
+.footer__title {
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.8px;
+    color: #fff;
+}
+
+.footer__text {
+    margin-bottom: 20px;
+    color: #d3d2d2;
+}
+
+.footer__inner .header__btn {
+    float: none;
+    display: inline-block;
+}
+
+.footer__list {
+    padding-top: 10px;
+}
+
+.footer__list li {
+    margin-top: 10px;
+}
+
+.footer__list a {
+    padding-left: 33px;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #fff;
+}
+
+.footer__list a::before {
+    content: "\f003";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+}
+
+.footer__list .footer__phone::before {
+    left: 3px;
+    content: "\f095";
+}
+
+.footer__list .footer__address::before {
+    left: 3px;
+    content: "\f041";
+}
+
+.footer__map {
+    left: 3px;
+    padding-top: 10px;
+}
+
+.footer__copy {
+    padding: 8px 0;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #303030;
+}
