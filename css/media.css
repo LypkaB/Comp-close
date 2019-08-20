@@ -52,6 +52,10 @@
     }
 
     /*<----- Consultation ----->*/
+    .сonsultation {
+        padding-bottom: 25px;
+    }
+
     .сonsultation-inner {
         background-image: none
     }
@@ -71,6 +75,19 @@
     .form__box-inner .jq-selectbox__select {
         margin-bottom: 10px;
     }
+
+    /*<----- Advantages ----->*/
+    .advantages__inner {
+        display: block;
+        padding: 40px 0 1px;
+    }
+
+    .advantages__item {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+
 }
 
 @media (max-width: 700px) {
@@ -146,6 +163,11 @@
     /*<----- Header ----->*/
     .header__btn::before {
         display: block;
+    }
+
+    /*<----- Advantages ----->*/
+    .advantages__item {
+        padding: 0;
     }
 }
 
