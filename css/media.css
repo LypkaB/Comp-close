@@ -15,6 +15,11 @@
         max-width: 100%;
         text-align: center;
     }
+
+    /*<----- Consultation ----->*/
+    .form__box-right button {
+        background-color: #ffffff;
+    }
 }
 
 @media (max-width: 900px) {
@@ -28,18 +33,43 @@
         display: block;
     }
 
-    .services__title-box {
+    .services__title-box,
+    .сonsultation__title-box,
+    .news__title-box {
         margin: 0 auto 30px;
         padding-left: 0;
         text-align: center;
     }
 
-    .services__title-box::before {
+    .services__title-box::before,
+    .сonsultation__title-box::before,
+    .news__title-box::before {
         display: none;
     }
 
     .services__btn {
         text-align: center;
+    }
+
+    /*<----- Consultation ----->*/
+    .сonsultation-inner {
+        background-image: none
+    }
+
+    .form__box-inner {
+        display: block;
+    }
+
+    .form__box-left {
+        max-width: 100%;
+    }
+
+    .form__box-right {
+        max-width: 100%;
+    }
+
+    .form__box-inner .jq-selectbox__select {
+        margin-bottom: 10px;
     }
 }
 
