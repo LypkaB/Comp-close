@@ -534,7 +534,7 @@ header {
     border: 1px solid #e6e6e6;
 }
 
-.form__box-inner .jq-selectbox__trigger-arrow:before{
+.form__box-inner .jq-selectbox__trigger-arrow:before {
     content: "\f105";
     font-family: 'icomoon';
     position: absolute;
