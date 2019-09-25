@@ -24,10 +24,10 @@ li {
 /*<----- Fonts ----->*/
 @font-face {
     font-family: 'Myriad Pro Regular';
-    src: url('../fonts/../fonts/../fonts/MyriadPro-Regular.eot');
-    src: url('../fonts/../fonts/../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/../fonts/MyriadPro-Regular.woff') format('woff'),
-    url('../fonts/../fonts/MyriadPro-Regular.ttf') format('truetype');
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/MyriadPro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -35,8 +35,8 @@ li {
 
 @font-face {
     font-family: 'PT Serif Regular';
-    src: url('../fonts/../fonts/PTSerif-Regular.eot');
-    src: url('../fonts/../fonts/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/PTSerif-Regular.eot');
+    src: url('../fonts/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
     url('../fonts/PTSerif-Regular.woff') format('woff'),
     url('../fonts/PTSerif-Regular.ttf') format('truetype');
     font-weight: normal;
@@ -46,8 +46,8 @@ li {
 
 @font-face {
     font-family: 'PT Serif Bold';
-    src: url('../fonts/../fonts/PTSerif-Bold.eot');
-    src: url('../fonts/../fonts/PTSerif-Bold.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/PTSerif-Bold.eot');
+    src: url('../fonts/PTSerif-Bold.eot?#iefix') format('embedded-opentype'),
     url('../fonts/PTSerif-Bold.woff') format('woff'),
     url('../fonts/PTSerif-Bold.ttf') format('truetype');
     font-weight: normal;
@@ -57,8 +57,8 @@ li {
 
 @font-face {
     font-family: 'Roboto Thin';
-    src: url('../fonts/../fonts/Roboto-Thin.eot');
-    src: url('../fonts/../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/Roboto-Thin.eot');
+    src: url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Roboto-Thin.woff') format('woff'),
     url('../fonts/Roboto-Thin.ttf') format('truetype');
     font-weight: normal;
@@ -68,8 +68,8 @@ li {
 
 @font-face {
     font-family: 'Roboto Regular';
-    src: url('../fonts/../fonts/Roboto-Regular.eot');
-    src: url('../fonts/../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Roboto-Regular.woff') format('woff'),
     url('../fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
@@ -79,8 +79,8 @@ li {
 
 @font-face {
     font-family: 'Roboto Medium';
-    src: url('../fonts/../fonts/Roboto-Medium.eot');
-    src: url('../fonts/../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/Roboto-Medium.eot');
+    src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Roboto-Medium.woff') format('woff'),
     url('../fonts/Roboto-Medium.ttf') format('truetype');
     font-weight: normal;
@@ -90,8 +90,8 @@ li {
 
 @font-face {
     font-family: 'Tahoma Regular';
-    src: url('../fonts/../fonts/Tahoma.eot');
-    src: url('../fonts/../fonts/Tahoma.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/Tahoma.eot');
+    src: url('../fonts/Tahoma.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Tahoma.woff') format('woff'),
     url('../fonts/Tahoma.ttf') format('truetype');
     font-weight: normal;
